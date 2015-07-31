@@ -1,0 +1,114 @@
+.hero {
+
+  overflow: hidden;
+  @include container-pad();
+  margin: 0 !important;
+
+  .container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+  }
+
+  .hero-content {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    background: $brand-color-lightblue url(../img/bg-geometry.png);
+    @include media($tablet){
+      height: $baseheight*15; // 360px
+    }
+  }
+
+  .hero-caption {
+
+    @include media($tablet){
+      float: left;
+      width: 50%;
+    }
+
+    h1 {
+      position: relative;
+      padding: $baseheight $basespace/2 0;
+      @extend .font-sans-cond-light;
+      text-transform: uppercase;
+      font-size: $font-size-h4;
+      line-height: 1;
+      color: #fff;
+      @include media($tablet){
+        font-size: $font-size-h1;      
+      }
+      @include media($tabletplus){
+        padding: $baseheight*2 $basespace 0;
+      }
+      @include media($desktop){
+        font-size: $font-size-large;      
+      }
+    }
+
+    // the paragraph shifts from relative to absolute positioning across breakpoints
+    p {
+      margin-left: $basespace/2;
+      margin-right: $basespace/2;
+      font-size: $font-size-base;
+      line-height: 1.125; // 18px
+      color: #fff;
+      @include media($tablet){
+        position: absolute;
+        width: 50%;
+        left: $basespace/2;
+        bottom: $baseheight;
+        margin: 0;
+        padding-right: $basespace*1.5;
+        font-size: $font-size-h5;
+        line-height: 1.16666666666667; // 21px
+      }
+      @include media($tabletplus){
+        left: $basespace;      
+        bottom: $baseheight*2;
+      }
+      @include media($desktop){
+        font-size: $font-size-h4;
+        line-height: 1.42857142857143; // 30px (a bit larger to accommodate bottom border for links)
+      }
+      a {
+        color: #fff;
+        @extend .font-sans-bold;
+        @include media($desktop){
+          border-bottom: 1px dotted rgba(255,255,255,.8);
+          font-family: "brandon-grotesque", Trebuchet MS, Lucida Grande, sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          &:hover {
+            border-bottom: 1px solid rgba(255,255,255,.8);
+          }
+        }
+      }
+    }
+  }
+
+  .hero-image {
+
+    overflow: hidden;
+    position: relative;
+  
+    @include media($tablet){
+      float: right;
+      width: 50%;
+    }
+  
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      @include media($tablet){
+        float: right;
+        width: auto;
+        height: 100%;
+      }
+    }
+
+  }
+
+}

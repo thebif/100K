@@ -1,0 +1,230 @@
+<!doctype html>
+
+<html class="no-js" lang="">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>100Kin10 Fellowship | Designing Solutions to STEM Teaching’s Biggest Challenges</title>
+
+        <meta name="description" content="100Kin10 Fellowship | Designing Solutions to STEM Teaching’s Biggest Challenges">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+        <script src="//use.typekit.net/hta1gec.js"></script>
+        <script>try{Typekit.load();}catch(e){}</script>
+
+    </head>
+
+    <body>
+
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header class="masthead">
+            <div class="container">
+                <a href="#" class="brand">100K<i>in</i>10 <i>Fellowship</i> <span class="tagline">Designing Solutions to STEM Teaching&apos;s Biggest Challenges</span></a>
+                <nav class="nav-main">
+                    <ul>
+                        <li>
+                            <a href="#100k-teams" title="Teams" class="link-jump icon-teams"><span>Teams</span></a>
+                        </li>
+                        <li>
+                            <a href="#100k-docs" title="Documents" class="link-jump icon-docs"><span>Documents</span></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="content-main">
+
+            <section class="hero">
+
+                <div class="container">
+
+                    <div class="hero-content">
+                        <div class="hero-image">
+                            <img src="img/100k-halfbanner.jpg" alt="" />
+                        </div>
+                        <div class="hero-caption">
+                             <h1>Increasing the reach and quality of engineering in K-12 schools across the nation</h1>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="cards" id="100k-teams">
+
+                <div class="container">
+
+                    <h1>Teams</h1>
+                    <p>A list of teams in the Fellowship. Each card links to the team's respective Google+ Community page.</p>
+
+                    <section class="teams-grid">
+
+                    <article class="card">
+                        <div class="card-figure icon-puzzle"></div>
+                        <div class="card-content">
+                            <h1>Team Name</h1>
+                            <p>Description from Google+ Community page copied and pasted here manually. This could also be the team's design challenge (but not both &mdash; that'd be too long). Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                        <div class="card-footer">
+                            <p>Metadata and/or tag</p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-figure icon-puzzle"></div>
+                        <div class="card-content">
+                            <h1>Team Name</h1>
+                            <p>Description from Google+ Community page copied and pasted here manually. This could also be the team's design challenge (but not both &mdash; that'd be too long). Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                        <div class="card-footer"><p>Metadata and/or tag</p></div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-figure icon-puzzle"></div>
+                        <div class="card-content">
+                            <h1>Team Name</h1>
+                            <p>Description from Google+ Community page copied and pasted here manually. This could also be the team's design challenge (but not both &mdash; that'd be too long). Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                        <div class="card-footer"><p>Metadata and/or tag</p></div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-figure icon-puzzle"></div>
+                        <div class="card-content">
+                            <h1>Team Name</h1>
+                            <p>Description from Google+ Community page copied and pasted here manually. This could also be the team's design challenge (but not both &mdash; that'd be too long). Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                        <div class="card-footer"><p>Metadata and/or tag</p></div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-figure icon-puzzle"></div>
+                        <div class="card-content">
+                            <h1>Team Name</h1>
+                            <p>Description from Google+ Community page copied and pasted here manually. This could also be the team's design challenge (but not both &mdash; that'd be too long). Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                        <div class="card-footer"><p>Metadata and/or tag</p></div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-figure icon-puzzle"></div>
+                        <div class="card-content">
+                            <h1>Team Name</h1>
+                            <p>Description from Google+ Community page copied and pasted here manually. This could also be the team's design challenge (but not both &mdash; that'd be too long). Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                        <div class="card-footer"><p>Metadata and/or tag</p></div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-figure icon-puzzle"></div>
+                        <div class="card-content">
+                            <h1>Team Name</h1>
+                            <p>Description from Google+ Community page copied and pasted here manually. This could also be the team's design challenge (but not both &mdash; that'd be too long). Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                        <div class="card-footer"><p>Metadata and/or tag</p></div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-figure icon-puzzle"></div>
+                        <div class="card-content">
+                            <h1>Team Name</h1>
+                            <p>Description from Google+ Community page copied and pasted here manually. This could also be the team's design challenge (but not both &mdash; that'd be too long). Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                        <div class="card-footer"><p>Metadata and/or tag</p></div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-figure icon-puzzle"></div>
+                        <div class="card-content">
+                            <h1>Team Name</h1>
+                            <p>Description from Google+ Community page copied and pasted here manually. This could also be the team's design challenge (but not both &mdash; that'd be too long). Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                        <div class="card-footer"><p>Metadata and/or tag</p></div>
+                    </article>
+
+                    </section>
+
+                </div>
+
+            </section>
+
+            <section class="docs" id="100k-docs">
+
+                <div class="container">
+
+                    <h1>Documents</h1>
+                    <p>Documents and exercises for the Fellowship are organized by phase.</p>
+
+                    <section class="doc-group">
+                        <h1>Week One</h1>
+                        <ul>
+                            <li><a class="icon-paper-plane" href="#">Assignment</a></li>
+                            <li><a class="icon-videocam" href="#">Video Clip</a></li>
+                            <li><a class="icon-bookmark" href="#">Recommended Reading</a></li>
+                            <li><a class="icon-book" href="#">Human-Centered Design Guide</a></li>
+                            <li><a class="icon-doc-text-inv" href="#">Worksheet</a></li>
+                        </ul>
+                    </section>
+
+                    <section class="doc-group">
+                        <h1>Week Two</h1>
+                        <ul>
+                            <li><a class="icon-paper-plane" href="#">Assignment</a></li>
+                            <li><a class="icon-book" href="#">Human-Centered Design Guide</a></li>
+                            <li><a class="icon-doc-text-inv" href="#">Worksheet</a></li>
+                        </ul>
+                    </section>
+
+                    <section class="doc-group">
+                        <h1>Week Three</h1>
+                        <ul>
+                            <li><a class="icon-bookmark" href="#">Recommended Reading</a></li>
+                            <li><a class="icon-book" href="#">Human-Centered Design Guide</a></li>
+                        </ul>
+                    </section>
+
+                </div>
+
+            </section>
+
+        </div>
+
+        <footer class="footer-main">
+            <div class="container">
+                <p class="copyright">A <a href="http://www.100kin10.org" rel="external">100Kin10</a> project produced in collaboration with the <a href="http://www.businessinnovationfactory.com" rel="external">Business Innovation Factory</a>.</p>
+                <p class="contact">Questions? <a href="#">Get in Touch</a></p>
+            </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-2283736-1','auto');ga('send','pageview');
+        </script>
+
+    </body>
+
+</html>

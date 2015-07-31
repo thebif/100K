@@ -1,0 +1,126 @@
+.brand {
+
+  position: relative;
+  display: block;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+  margin: 0 auto;
+  @extend .font-sans-bold;
+  font-size: $font-size-h3;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  transition: color .1s;
+
+  @include media($tablet){
+    font-size: $font-size-h1;
+  }
+
+  i {
+    font-size: 80%;
+    font-style: normal;
+  }
+
+  .tagline {
+
+    display: none;
+    margin-top: $baseheight/2;
+    padding-top: $baseheight/2;
+    border-top: 1px solid #fff;
+    @extend .font-sans-cond-light;
+    font-size: .5em;
+    text-transform: none;
+
+    @include media ($tablet){
+      display: block;
+    }
+
+  }
+
+}
+
+.nav-main {
+  height: 100%;
+  li {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  li:first-child {
+    left: 5%;
+    text-align: left;
+    @include media($desktop){
+      left: 0;
+    }
+  }
+  li:last-child {
+    right: 5%;
+    text-align: right;
+    @include media($desktop){
+      right: 0;
+    }
+  }
+}
+
+
+// ------------------------------
+// REFACTOR THIS SPAGHETTI
+// ------------------------------
+
+.link-jump {
+
+  display: inline-block;
+  padding: $baseheight/3 $basespace/4;
+  line-height: 1.5;
+  color: #fff;
+  background-color: darken($brand-color-yellow,5%);  
+  border-radius: 50%;
+
+  span {
+    font-size: 0;
+  }
+
+  &:after {
+    display: none;
+    position: absolute;
+    top: $baseheight/4;
+    @extend .font-sans-cond-light;
+    font-size: $font-size-base;    
+    text-transform: uppercase;
+
+    @include media($tablet){
+      display: inline-block;
+    }
+
+  }
+
+  &:hover {
+    background-color: darken($brand-color-yellow,7.5%);
+  }
+
+  &:focus,&:active {
+    color: $brand-color-yellow;
+    background-color: #fff;
+  }
+
+}
+
+.icon-teams:after {
+  left: $basespace*1.5;
+  content: 'Teams';
+}
+
+.icon-docs:after {
+  right: $basespace*1.5;
+  content: 'Docs';
+}
+
+.icon-teams:before {
+  content: '\e804';
+}
+
+.icon-docs:before {
+  content: '\e802';
+}

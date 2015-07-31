@@ -1,0 +1,23 @@
+@mixin container-pad(){
+
+  padding-top: $baseheight;
+  padding-bottom: $baseheight;
+
+  @include media($mobile) {
+    padding-left: $basespace/2 !important;
+    padding-right: $basespace/2 !important;
+  }
+
+  @include media($tablet) {
+    padding-top: $baseheight*2;
+    padding-bottom: $baseheight*2;
+    padding-left: $basespace !important;
+    padding-right: $basespace !important;
+  }
+
+  @include media($desktop) {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+}

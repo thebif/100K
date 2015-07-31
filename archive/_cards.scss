@@ -1,0 +1,113 @@
+.cards {
+
+  h1 {
+    font-size: $font-size-h1;
+    color: $brand-color-bluegreen;
+  }
+
+  p {
+    font-size: $font-size-h5;
+  }
+
+}
+
+.card {
+
+  position: relative;
+  overflow: hidden;
+  margin-bottom: $baseheight;
+  background-color: #fff;
+  border-radius: 3px;
+
+  @include media($tablet){
+    float: left;
+    width: 48%;
+  }
+
+  @include media($desktop){
+    float: left;
+    width: 32%;
+  }
+
+}
+
+.card-figure {
+  overflow: hidden;
+  width: 100%;
+  height: $baseheight*10;
+  //margin-bottom: $baseheight/2;
+  text-align: center;
+  background-color: $brand-color-grey;
+  &.icon-puzzle:before {
+    padding: $baseheight/3 0;
+    font-size: $font-size-largest;
+    line-height: 3.33333333333333;
+    color: #fff;
+  }
+}
+
+.card-content {
+
+  padding: $baseheight $basespace/2 $baseheight*3;
+
+  h1 {
+
+    margin-bottom: $baseheight/2;
+    font-size: $font-size-h3;
+    color: $brand-color-green;
+
+  }
+
+  .card-btn {
+    display: block;
+    width: 100%;
+    //@include button(flat,$brand-color-grey4);
+  }
+
+}
+
+.card-footer {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  padding: $baseheight/2 $basespace/2 0;
+  border-top: 1px solid lighten($brand-color-grey,40%);
+  //padding: $baseheight/2 $basespace/2 0;
+  //background-color: lighten($brand-color-grey,30%);
+
+  p {
+    @extend .font-sans-cond-light;
+    font-size: $font-size-sub1;
+    text-transform: uppercase;
+    color: $brand-color-green;
+  }
+
+}
+
+.gutter-sizer {
+
+  @include media($tablet){
+    width: 4%;
+  }
+
+  @include media($desktop){
+    width: 2%;
+  }
+
+}
+
+.grid-sizer {
+
+  @include media($tablet){
+    float: left;
+    width: 48%;
+  }
+
+  @include media($desktop){
+    float: left;
+    width: 32%;
+  }
+  
+}

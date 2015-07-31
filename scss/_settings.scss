@@ -1,0 +1,103 @@
+// -------------
+// Grid Settings
+// -------------
+
+$visual-grid: false;
+$visual-grid-color: red;
+
+$responsive: true;
+
+$column: 60px;
+$gutter: 20px;
+$grid-columns: 4;
+
+$font-size: 16px;
+$max-width-px: 1088px;
+$max-width: em($max-width-px, $font-size);
+
+$margin: $gutter;
+$padding: $gutter;
+
+$baseheight: 24px;
+$basespace: 40px;
+
+
+// -----------
+// Breakpoints
+// -----------
+
+$mobile: new-breakpoint(min-width em(320px, $font-size) 4);
+$tablet: new-breakpoint(min-width em(720px, $font-size) 15);
+$tabletplus: new-breakpoint(min-width em(900px, $font-size) 15);
+$desktop: new-breakpoint(min-width em(1088px, $font-size) 15);
+$wide: new-breakpoint(min-width em(1280px, $font-size) 15);
+
+
+// ------
+// Colors
+// ------
+
+$brand-color-black: rgb(73,73,73);
+$brand-color-yellow: rgb(241,190,33);
+$brand-color-lightblue: rgb(105,166,217);
+$brand-color-darkblue: rgb(65,115,189);
+$brand-color-bluegreen: rgb(16,146,138);
+$brand-color-green: rgb(116,166,73);
+$brand-color-grey: rgb(127,127,127);
+
+
+// ----------
+// Font Sizes
+// ----------
+
+$font-size-largest: 4.5em;
+$font-size-larger: 3.75em;
+$font-size-large: 2.625em;
+
+$font-size-h1: 2.25em;
+$font-size-h2: 1.875em;
+$font-size-h3: 1.5em;
+$font-size-h4: 1.3125em;
+$font-size-h5: 1.125em;
+
+$font-size-base: 1em;
+
+$font-size-sub1: .875em;
+$font-size-sub2: .75em;
+
+
+// ----------
+// Font Faces
+// ----------
+
+.font-sans-reg {
+  font-family: "brandon-grotesque", Trebuchet MS, Lucida Grande, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.font-sans-ital {
+  font-family: "brandon-grotesque",Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.font-sans-bold {
+  font-family: "brandon-grotesque", Trebuchet MS, Lucida Grande, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.font-sans-cond-light {
+  font-family: "tablet-gothic-condensed",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.font-sans-cond-bold {
+  font-family: "tablet-gothic-condensed",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+}

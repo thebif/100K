@@ -1,0 +1,55 @@
+.container {
+
+  @include outer-container;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+
+}
+
+.masthead {
+
+  height: $baseheight*3; // specify height in order to create a container where contents can be vertically centered
+  padding: $baseheight 0;
+  text-align: center;
+  text-transform: uppercase; // all children should be uppercase
+  background-color: $brand-color-yellow;
+
+  @include media($tablet){
+    height: $baseheight*6; // specify height in order to create a container where contents can be vertically centered
+  }
+
+  .container {
+    position: relative;
+    height: 100%; // specify full height in order to create a container where contents can be vertically centered
+  }
+
+}
+
+.main {
+
+  @include container-pad();
+ 
+}
+
+.cards {
+
+  @include container-pad();
+
+  background-color: lighten($brand-color-grey,40%);
+
+}
+
+.docs {
+
+  @include container-pad();
+
+}
+
+.footer-main {
+
+  @include container-pad();
+
+  background-color: $brand-color-black;
+
+}

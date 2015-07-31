@@ -1,0 +1,50 @@
+.footer-main {
+
+  color: #fff;
+
+  p {
+    margin-bottom: $baseheight/2;
+  }
+
+  a {
+
+    @extend .font-sans-bold;
+    color: $brand-color-yellow;
+
+    &:hover {
+      border-bottom: 1px dotted $brand-color-yellow;
+    }
+
+  }
+
+
+
+  .copyright {
+    @include media($desktop){
+      float: left;
+    }
+  }
+
+  .contact {
+    @include media($desktop){
+      float: right;
+    }
+    a {
+      display: inline-block;
+      margin-left: $basespace/4;
+      padding: 0 $basespace/4;
+      @extend .font-sans-cond-light;
+      font-size: $font-size-sub1;
+      line-height: $baseheight*1.25;
+      text-transform: uppercase;
+      color: #fff;
+      background-color: $brand-color-lightblue;
+      border-radius: 3px;
+      &:hover {
+        border: 0;
+        background-color: darken($brand-color-lightblue,5%);
+      }
+    }
+  }
+
+}

@@ -1,0 +1,140 @@
+.cards {
+
+  h1 {
+    margin-bottom: $baseheight/2;
+    font-size: $font-size-h3;
+    color: $brand-color-bluegreen;
+    @include media($tablet){
+      font-size: $font-size-h2;
+    }
+  }
+
+  p {
+    font-size: $font-size-h5;
+  }
+
+  .container {
+    position: relative;  
+  }
+
+  .container > h1 + p {
+    @include media($tablet){
+      width: 60%;
+    }
+  }
+
+  .contact {
+    color: $brand-color-grey;
+    @include media($tablet){
+      position: absolute;
+      top: $baseheight/3;
+      right: 0;
+    }
+    a {
+      display: inline-block;
+      margin-left: $basespace/4;
+      padding: 0 $basespace/4;
+      @extend .font-sans-cond-light;
+      font-size: $font-size-sub1;
+      line-height: $baseheight*1.25;
+      text-transform: uppercase;
+      color: #fff;
+      background-color: $brand-color-green;
+      border-radius: 3px;
+      &:hover {
+        border: 0;
+        background-color: darken($brand-color-green,5%);
+      }
+    }
+  }
+
+}
+
+.card {
+
+  position: relative;
+  overflow: hidden;
+  margin-bottom: $baseheight;
+  background-color: #fff;
+  border-radius: 3px;
+
+  @include media($tablet){
+    float: left;
+    width: 48%;
+  }
+
+  @include media($desktop){
+    float: left;
+    width: 32%;
+  }
+
+}
+
+.card-figure {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: $brand-color-grey;
+  &.icon-puzzle:before {
+    padding: $baseheight/3 0;
+    font-size: $font-size-largest;
+    line-height: 3.33333333333333;
+    color: #fff;
+  }
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.card-content {
+
+  padding: $baseheight $basespace/2;
+
+  h1 {
+    margin-bottom: $baseheight/2;
+    font-size: $font-size-h3;
+    transition: .1s color;
+    a {
+      color: $brand-color-green;
+      &:hover {
+        color: darken($brand-color-green, 5%);
+      }
+    }
+  }
+
+  p {
+    margin-bottom: $baseheight/2;
+  }
+
+  
+
+}
+
+.gutter-sizer {
+
+  @include media($tablet){
+    width: 4%;
+  }
+
+  @include media($desktop){
+    width: 2%;
+  }
+
+}
+
+.grid-sizer {
+
+  @include media($tablet){
+    float: left;
+    width: 48%;
+  }
+
+  @include media($desktop){
+    float: left;
+    width: 32%;
+  }
+  
+}
